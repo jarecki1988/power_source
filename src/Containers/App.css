@@ -15,7 +15,7 @@ z-index: 5;
 
 }
 .gap {
-  flex: 2;
+  flex: 1.5;
 }
 .logo {
   margin-top: 5px;
@@ -27,8 +27,6 @@ a {
   color: black;
   border-left: 1px dotted black;
   border-right: 1px dotted black;
-
-  
   padding:10px;
  }
 a:hover {
@@ -47,6 +45,7 @@ header {
 h1 {
   color: rgb(239, 14, 14);
   margin-top: 0px;
+  font-size: 3rem;
 }
 .section {
   display: flex;
@@ -64,10 +63,24 @@ h1 {
 footer {
   background-color: rgb(56, 63, 70);
   font-size: 1rem;
-  padding: 15px;
+  padding: 5px;
   color: wheat;
 }
 .status {
   position: relative;
   top:60px;
+  background-image: url(../background.jpg);
+}
+.falcon {
+  width: 350px;
+  border: 2px solid rgb(21, 8, 36);
+  border-radius: 100%;
+  padding: 10px;
+}
+.light {
+  width: 350px;
+  border: 2px solid rgb(21, 8, 36);
+  border-radius: 100%;
+  padding: 10px;
+  margin-left: 20%;
 }

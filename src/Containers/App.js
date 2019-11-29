@@ -10,7 +10,6 @@ class App extends React.Component {
   return (
     <Router>
     <div className="app">
-      
         <div className="nav">
         <img className="logo" src={Logo} alt='' width='60px' height="auto" ></img>
         <div className="gap"></div>
