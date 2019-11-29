@@ -37,7 +37,6 @@ header {
   position: relative;
   top: 60px;
   padding-bottom: 30px;
-
 }
 h1 {
   color: rgb(239, 14, 14);
@@ -61,13 +60,10 @@ h1 {
 }
 footer {
   background-color: rgb(56, 63, 70);
-  font-size: 1rem;
   padding: 5px;
-  color: wheat;
 }
-.spacer {
-  display: flex;
-  justify-content: space-around;
+h5 {
+color: wheat;
 }
 .status {
   position: relative;
@@ -75,22 +71,25 @@ footer {
   background-image: url(../background.jpg);
 
 }
+
+figurecaption {
+    color: rgb(17, 224, 114);
+    font-size: 1.5rem;
+
+    
+}
 .falcon {
-  width: 250px;
+  width: 25%;
   border: 2px solid rgb(21, 8, 36);
   border-radius: 100%;
-  
+  margin: 0px 100px 50px 0;
   
 }
 .light {
-  width: 250px;
+  width: 25%;
   border: 2px solid rgb(21, 8, 36);
   border-radius: 100%;
-
-}
-figurecaption {
-  color: rgb(17, 224, 114);
-  font-size: 2rem;
+  margin: 0 0 50px 0;
 }
 p {
   color: white;
