@@ -66,21 +66,30 @@ footer {
   padding: 5px;
   color: wheat;
 }
+.spacer {
+  display: flex;
+  justify-content: space-around;
+}
 .status {
   position: relative;
   top:60px;
   background-image: url(../background.jpg);
+
 }
 .falcon {
-  width: 350px;
+  width: 250px;
   border: 2px solid rgb(21, 8, 36);
   border-radius: 100%;
-  padding: 10px;
+  
+  
 }
 .light {
-  width: 350px;
+  width: 250px;
   border: 2px solid rgb(21, 8, 36);
   border-radius: 100%;
-  padding: 10px;
-  margin-left: 20%;
+
+}
+figurecaption {
+  color: rgb(17, 224, 114);
+  
 }
