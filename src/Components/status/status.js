@@ -3,7 +3,7 @@ import React from 'react';
 const Status = () => {
   return (
     <div className="status">
-     <h1>Status</h1>
+     <h1>TOTAL POWER: </h1>
     </div>
   );
 }

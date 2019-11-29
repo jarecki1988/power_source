@@ -10,8 +10,10 @@ class App extends React.Component {
   return (
     <Router>
     <div className="app">
-      <img className="logo" src={Logo} alt='' width='50px' height="auto" ></img>
+      
         <div className="nav">
+        <img className="logo" src={Logo} alt='' width='60px' height="auto" ></img>
+        <div className="gap"></div>
           <Link to="/">Home</Link>
           <Link to="/status">Status</Link>
         </div>
