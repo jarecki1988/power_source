@@ -10,7 +10,7 @@ const Home = () => {
           <p>of our space ship and lightsword</p>
           <p>energy we can use yet</p>
           <p>check the power level left</p>
-          <p>click STATUS to see.</p>
+          <p>click <span>STATUS</span> to see.</p>
       </header>
     <div className="section">
       <div className="article">
@@ -30,7 +30,7 @@ const Home = () => {
       </div>
 
       <div className="article">
-        <strong>Power control</strong> is very impornat to not ramain without energy, so check frequiently how much Your space ship and lightsword has energy left to be ready plug into <strong>power source </strong>on time.
+        <strong>Power control</strong> is very impornat to not ramain without energy, so check frequiently how much Your space ship and lightsword has energy left to be ready plug into <strong>power source </strong>on time. <strong>Click</strong> on each item to see their value of power left.
       </div>
 
     </div>

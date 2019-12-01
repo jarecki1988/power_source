@@ -72,26 +72,29 @@ color: wheat;
 
 }
 
-figurecaption {
-    color: rgb(17, 224, 114);
-    font-size: 1.5rem;
-
-    
-}
 .falcon {
   width: 25%;
-  border: 2px solid rgb(21, 8, 36);
   border-radius: 100%;
   margin: 0px 100px 50px 0;
   
 }
 .light {
   width: 25%;
-  border: 2px solid rgb(21, 8, 36);
   border-radius: 100%;
   margin: 0 0 50px 0;
 }
 p {
   color: white;
   font-size: 3rem;
+}
+h6{
+  color: rgb(17, 224, 114);
+  font-size: 1.5rem;
+  display: inline-block;
+}
+.random {
+  color: red;
+}
+span {
+  color: red;
 }
