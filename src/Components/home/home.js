@@ -8,8 +8,8 @@ const Home = () => {
         <h1>POWER SOURCE</h1>
           <p>is showing how much<br/>
           of our space ship and lightsword<br/>
-          energy we can use yet<br/>
-          check the power level left<br/>
+          energy we can use yet, <br/>
+          check the power level left, <br/>
           click <span>STATUS</span> to see.</p>
       </header>
     <div className="home__section">

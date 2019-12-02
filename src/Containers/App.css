@@ -56,16 +56,14 @@ p {
 .home__section {
 position: relative;
 background-color: rgb(250, 253, 253) ;
-font-size: 1.4rem;
 padding: 10px;
-text-align: justify;
-letter-spacing: 1.4px;
+text-align: start;
+
 
 }
 .home__article {
   column-count: 3;
-  column-gap: 1em;
- 
+  column-gap: 2rem;
 }
 footer {
   background-color: rgb(56, 63, 70);
