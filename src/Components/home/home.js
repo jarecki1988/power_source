@@ -1,7 +1,8 @@
 import React from 'react';
 
 
-const Home = () => {
+class Home extends React.Component {
+  render(){
   return (
     <div className="home">
       
@@ -10,7 +11,7 @@ const Home = () => {
           of our space ship and lightsword<br/>
           energy we can use yet, <br/>
           check the power level left, <br/>
-          click <span>STATUS</span> to see.</p>
+          click <a href="/status" id="home__link"><span>STATUS</span></a> to see.</p>
       
     <div className="home__section">
       <div className="home__article">
@@ -40,5 +41,5 @@ const Home = () => {
   </div>
   );
 }
-
+}
 export default Home;

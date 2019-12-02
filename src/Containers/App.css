@@ -15,9 +15,12 @@ display: flex;
 }
 
 .app__logo {
-  margin-top: 5px;
-  margin-left: 20px;
+  margin-left: 10px;
   
+}
+#app__link {
+margin: 0;
+padding: 0;
 }
 a {
   text-decoration: none;
@@ -56,7 +59,7 @@ position: relative;
 background-color: rgb(250, 253, 253) ;
 padding: 10px;
 text-align: start;
-
+margin-top: 30px;
 
 }
 .home__article {
@@ -64,7 +67,13 @@ text-align: start;
   column-gap: 2rem;
 }
 
-
+#home__link {
+  color: white;
+  font-size: 3rem;
+  padding:0;
+  background: none;
+  
+}
 .status {
   display: flex;
   position: relative;
@@ -115,4 +124,5 @@ p {
 footer {
   color: wheat;
   padding: 20px;
+  margin-bottom: 30px;
 }

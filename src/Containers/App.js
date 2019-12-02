@@ -15,7 +15,7 @@ class App extends React.Component {
       
     <div className="app">
         <div className="app__nav">
-        <img className="app__logo" src={Logo} alt='' width='60px' height="auto" ></img>
+        <a href="/" id="app__link"><img className="app__logo" src={Logo} alt='' width='60px' height="auto" ></img></a>
           <NavLink to='/'>Home</NavLink>
           <NavLink to="/status" >Status</NavLink>
         </div>
