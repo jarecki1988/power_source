@@ -26,10 +26,10 @@ class Status extends React.Component {
   return (
     <div className="status">
       <h1>TOTAL POWER:{} KV </h1>
-        <div className="space">
+        <div className="status__space">
             <h6><Random/> KV </h6>
-              <img className="falcon" src={falcon} alt="falcon" style={{border: this.state.border}} onClick={this.handleClick}></img>
-              <img className="light" src={Lightsaber} alt="falcon" style={{border: this.state.border}} onClick={this.handleClick}></img>
+              <img className="status__falcon" src={falcon} alt="falcon" style={{border: this.state.border}} onClick={this.handleClick}></img>
+              <img className="status__light" src={Lightsaber} alt="falcon" style={{border: this.state.border}} onClick={this.handleClick}></img>
             <h6><Random/> KV </h6>
         </div>
       <footer>

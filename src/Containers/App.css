@@ -8,17 +8,17 @@ min-height: 55px;
 position: fixed;
 z-index: 5;
 }
-.nav {
+.app__nav {
 color: black;
 width: 100%;
 display: flex;
 
  
   }
-.gap {
+.app__gap {
   flex: 3;
 }
-.logo {
+.app__logo {
   margin-top: 5px;
   margin-left: 20px;
 
@@ -53,20 +53,19 @@ p {
   color: white;
   font-size: 3rem;
 }
-.section {
-  display: flex;
-  position: relative;
+.home__section {
+position: relative;
+background-color: rgb(250, 253, 253) ;
+font-size: 1.4rem;
+padding: 10px;
+text-align: justify;
+letter-spacing: 1.4px;
+
 }
-.article {
-  width: 100%;
-  height: auto;
-  background-color: rgb(250, 253, 253) ;
-  justify-content: space-between;
-  font-size: 1.3rem;
-  padding: 10px;
-  text-align: justify;
-  border: 0.3px dashed black;
-  letter-spacing: 1.5px;
+.home__article {
+  column-count: 3;
+  column-gap: 1em;
+ 
 }
 footer {
   background-color: rgb(56, 63, 70);
@@ -82,13 +81,13 @@ color: wheat;
 
 }
 
-.falcon {
+.status__falcon {
   width: 25%;
   border-radius: 100%;
   margin: 0px 100px 50px 0;
   
 }
-.light {
+.status__light {
   width: 25%;
   border-radius: 100%;
   margin: 0 0 50px 0;

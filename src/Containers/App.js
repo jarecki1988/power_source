@@ -11,9 +11,9 @@ class App extends React.Component {
   return (
     <Router>
     <div className="app">
-        <div className="nav">
-        <img className="logo" src={Logo} alt='' width='60px' height="auto" ></img>
-        <div className="gap"></div>
+        <div className="app__nav">
+        <img className="app__logo" src={Logo} alt='' width='60px' height="auto" ></img>
+        <div className="app__gap"></div>
           <Link to="/" >Home</Link>
           <NavLink to="/status" activeClassName="active">Status</NavLink>
         </div>
