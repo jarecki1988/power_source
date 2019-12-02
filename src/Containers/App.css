@@ -95,16 +95,18 @@ margin-top: 30px;
   justify-content: center;
   
 }
-.status__falcon {
+#status__falcon {
   width: 20%;
   border-radius: 50%;
   margin: 0px 100px 0 0;
+  border: 2px solid gray;
   
 }
-.status__light {
+#status__light {
   width: 20%;
   border-radius: 50%;
   margin: 0;
+  border: 2px solid gray;
  
 }
 span {
@@ -127,6 +129,7 @@ footer {
 output {
   display: flex;
   color: green;
+  font-size: 2rem;
 }
 
 @media (max-width:340px) {
