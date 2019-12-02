@@ -4,7 +4,6 @@ width: 100%;
 background-color: rgb(76, 85, 94);
 font-size: 2.0rem;
 font-weight: bold;
-min-height: 55px;
 position: fixed;
 z-index: 5;
 }
@@ -13,14 +12,12 @@ color: black;
 width: 100%;
 display: flex;
 
- 
-  }
-.app__gap {
-  flex: 3;
 }
+
 .app__logo {
   margin-top: 5px;
   margin-left: 20px;
+  
 }
 a {
   text-decoration: none;
@@ -28,11 +25,16 @@ a {
   border-left: 1px dotted black;
   padding:12px 30px;
   transition: box-shadow 0.2s;
+  margin-left: auto;
+  justify-content: flex-end
   
  }
+
+ 
  a:last-child {
   border-right: 1px dotted black;
   margin-right: 4px;
+  margin-left: 0;
   
  }
 a:hover {
@@ -41,25 +43,13 @@ a:hover {
   background-color:rgb(85, 98, 111);
   
 }
-a:active {
-  text-decoration: underline;
-}
-header {
+
+.home {
+  display: flex;
   background-image: url('../Assets/Images/background.jpg');
   position: relative;
   top: 60px;
-  padding-bottom: 30px;
-  min-width:100%;
-}
-h1 {
-  color: rgb(239, 14, 14);
-  margin-top: 0px;
-  font-size: 3rem;
-  
-}
-p {
-  color: white;
-  font-size: 3rem;
+  flex-direction: column;
 }
 .home__section {
 position: relative;
@@ -73,40 +63,56 @@ text-align: start;
   column-count: 3;
   column-gap: 2rem;
 }
-footer {
-  background-color: rgb(56, 63, 70);
-  padding: 5px;
-}
-h5 {
-color: wheat;
-}
+
+
 .status {
+  display: flex;
   position: relative;
   top:60px;
   background-image: url(../Assets/Images/background.jpg);
-
+  flex-direction: column;
+  
 }
-
+.status__space {
+  margin-top: 50px;
+ 
+  
+}
 .status__falcon {
-  width: 25%;
+  width: 20%;
   border-radius: 50%;
-  margin: 0px 100px 50px 0;
+  margin: 0px 100px 0 0;
   
 }
 .status__light {
-  width: 25%;
+  width: 20%;
   border-radius: 50%;
-  margin: 0 0 50px 0;
+  margin: 0;
+ 
 }
-
+.random {
+  color: red;
+}
 h6{
   color: rgb(17, 224, 114);
   font-size: 1.5rem;
   display: inline-block;
 }
-.random {
-  color: red;
-}
+
 span {
   color: red;
+}
+h1 {
+  color: rgb(239, 14, 14);
+  margin-top: 0px;
+  font-size: 3rem;
+  
+}
+p {
+  color: white;
+  font-size: 3rem;
+}
+footer {
+  color: wheat;
+  padding: 20px;
 }

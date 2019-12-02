@@ -33,7 +33,7 @@ class Status extends React.Component {
             <h6><Random/> KV </h6>
         </div>
       <footer>
-        <h5>Copyright all reserved 2019.</h5>
+        Copyright all reserved 2019.
       </footer>
     </div>
   );

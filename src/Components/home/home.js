@@ -4,14 +4,14 @@ import React from 'react';
 const Home = () => {
   return (
     <div className="home">
-      <header>
+      
         <h1>POWER SOURCE</h1>
           <p>is showing how much<br/>
           of our space ship and lightsword<br/>
           energy we can use yet, <br/>
           check the power level left, <br/>
           click <span>STATUS</span> to see.</p>
-      </header>
+      
     <div className="home__section">
       <div className="home__article">
         <strong>The Millennium Falcon </strong>original designation YT-1300 492727ZED, was a Corellian YT-1300f light freighter most famously used by the smugglers Han Solo and Chewbacca during the Galactic Civil War. In the time following the Battle of Endor, Imperial turncoat Ralsius Paldora noted that 2.2 out of every 300 stormtroopers were aware of the Falcon's existence.[38]
@@ -35,7 +35,7 @@ const Home = () => {
       </div>
       </div>
    <footer>
-   <h5>Copyright all reserved 2019</h5>
+   Copyright all reserved 2019.
      </footer>
   </div>
   );
