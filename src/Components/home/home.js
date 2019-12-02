@@ -6,11 +6,11 @@ const Home = () => {
     <div className="home">
       <header>
         <h1>POWER SOURCE</h1>
-          <p>is showing how much</p>
-          <p>of our space ship and lightsword</p>
-          <p>energy we can use yet</p>
-          <p>check the power level left</p>
-          <p>click <span>STATUS</span> to see.</p>
+          <p>is showing how much<br/>
+          of our space ship and lightsword<br/>
+          energy we can use yet<br/>
+          check the power level left<br/>
+          click <span>STATUS</span> to see.</p>
       </header>
     <div className="section">
       <div className="article">

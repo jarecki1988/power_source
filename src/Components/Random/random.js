@@ -11,8 +11,8 @@ class Random extends React.Component {
  
   handleClick = () => {
     var min = 1;
-    var max = 100;
-    var rand =  min + (Math.random() * (max-min));
+    var max = 7;
+    var rand =  min + (Math.floor(Math.random() * (max-min)));
     this.setState ({random : rand})
  }
   render() {

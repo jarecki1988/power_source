@@ -1,6 +1,6 @@
 import React from 'react';
-import falcon from "../../../src/falcon2.png";
-import Lightsaber from "../../../src/lightsaber2.png";
+import falcon from "../../Assets/Images/falcon2.png";
+import Lightsaber from "../../Assets/Images/lightsaber2.png";
 import Random from '../Random/random'
 
 
@@ -11,7 +11,7 @@ import Random from '../Random/random'
 class Status extends React.Component {
   constructor(props){
     super(props);
-    this.state = {border: '2px solid hidden'};
+    this.state = {border: '2px solid gray'};
     this.handleClick = this.handleClick.bind(this);
   }
 
