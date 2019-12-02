@@ -21,17 +21,25 @@ display: flex;
 .app__logo {
   margin-top: 5px;
   margin-left: 20px;
-
 }
 a {
   text-decoration: none;
   color: black;
   border-left: 1px dotted black;
-  border-right: 1px dotted black;
   padding:12px 30px;
+  transition: box-shadow 0.2s;
+  
+ }
+ a:last-child {
+  border-right: 1px dotted black;
+  margin-right: 4px;
+  
  }
 a:hover {
   color: red;
+  box-shadow: 0 0 5px black;
+  background-color:rgb(85, 98, 111);
+  
 }
 a:active {
   text-decoration: underline;
@@ -81,13 +89,13 @@ color: wheat;
 
 .status__falcon {
   width: 25%;
-  border-radius: 100%;
+  border-radius: 50%;
   margin: 0px 100px 50px 0;
   
 }
 .status__light {
   width: 25%;
-  border-radius: 100%;
+  border-radius: 50%;
   margin: 0 0 50px 0;
 }
 
