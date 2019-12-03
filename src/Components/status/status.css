@@ -1,0 +1,40 @@
+.status {
+    display: flex;
+    position: relative;
+    top:60px;
+    background-image: url(../../Assets/Images/background.jpg);
+    flex-direction: column;
+  }
+  .status__space {
+    margin-top: 20px; 
+    
+  }
+  
+  .status__description {
+    color: red;
+    font-size: 3rem;
+    font-weight: 600;
+  display: inline-block;
+  width: 27%;
+  
+    
+  }
+  #status__falcon {
+    width: 23%;
+    border-radius: 50%;
+    margin: 0 30px;
+    border: 1px solid gray;
+    cursor: pointer;
+    padding: 10px;
+    order: 2;
+    
+  }
+  #status__light {
+    width: 23%;
+    border-radius: 50%;
+    margin: 0 30px;
+    border: 2px solid gray;
+   cursor: pointer;
+   padding: 10px;
+   order: 1;
+  }

@@ -1,6 +1,7 @@
 import React from "react";
 import falcon from "../../Assets/Images/falcon2.png";
 import Lightsaber from "../../Assets/Images/lightsaber2.png";
+import './status.css';
 
 
 
