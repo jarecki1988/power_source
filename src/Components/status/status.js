@@ -28,14 +28,14 @@ class Status extends React.Component {
       this.random = (Math.random()*700/100).toFixed(1);
       
   }
-
+ 
 
   render() {
     return (
       <div className="status">
-  <h1>TOTAL POWER:{<output>{this.state.totalKv}</output>} </h1>
+  <h1>TOTAL POWER: { this.total } KV </h1>
           <div className="status__space">
-              <output >{[this.random,this.state.random]}</output>
+              <output >{[this.random, this.state.random]}</output>
               <img id="status__falcon" src={falcon} alt="falcon" style={{border: this.state.border}} onClick={this.handleClick} ></img>
               
               <img id="status__light" src={Lightsaber} alt="flight" style={{border: this.state.border}} onClick={this.handleClick2}></img>
