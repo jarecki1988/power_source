@@ -11,7 +11,6 @@
   padding: 10px;
   text-align: start;
   margin-top: 30px;
-  
   }
   .home__article {
     column-count: 3;
@@ -19,11 +18,53 @@
     min-height: 500px;
     font-size: 1.7rem;
   }
-  
   #home__link {
     color: white;
     font-size: 3rem;
     padding:0;
     background: none;
-    
   }
+  @media (max-width: 800px) {
+    #status__falcon {width: 30%;}
+    #status__light {width: 30%;}
+  }
+  @media (max-width:540px) {
+    .status__space {margin-top: 0; }
+    .status__description {font-size: 2rem;}
+    p {font-size: 2rem}
+    .home__article {font-size: 1.2rem;}
+    #status__falcon {width: 33%;}
+    #status__light {width: 33%;}
+  }
+  @media (max-width:340px) {
+    .app {font-size: 1.5rem;}
+    a {padding-top: 15px;}
+    .status__space {margin-top: 0;}
+    .status__description {font-size: 1rem;}
+    h1 {font-size: 2.2rem;}
+    .home__article {font-size: 1.0rem;}
+    #status__falcon {width: 38%;}
+    #status__light {width: 38%;}
+  }
+  @media (max-width:310px) {
+    .app__logo {display: none;}
+    .status__space {margin-top: 0;}
+    span {font-size: 2.5rem;}
+    #app__link {padding: 0 0;}
+    h1 {font-size: 1.5rem;}
+    p {font-size: 1.5rem;}
+    .home__article {font-size: 0.8rem;columns: 2;}
+    #status__falcon {width: 43%;}
+    #status__light {width: 43%;}
+  }
+  @media (max-width:220px) {
+    .app {font-size: 1.5rem;}
+    #app__link {padding: 0 0;}
+    p {font-size: 1rem;}
+    span {font-size: 2rem;}
+    a {border: none; padding: 10px; margin-left: 20px;}
+    .home__article {columns: 1;}
+    #status__falcon {width: 53%;}
+    #status__light {width: 53%;}
+  }
+  

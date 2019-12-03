@@ -5,10 +5,6 @@ import Status from '../Components/status/status';
 import Logo from "../Assets/Images/Logo.png";
 import { BrowserRouter as Router,Route,NavLink } from 'react-router-dom';
 
-
-
-
-
 class App extends React.Component {
   
   render() {
@@ -28,5 +24,4 @@ class App extends React.Component {
   }
   }
   
-
 export default App;

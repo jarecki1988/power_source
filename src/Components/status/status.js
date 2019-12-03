@@ -5,6 +5,7 @@ import './status.css';
 
 
 
+
 class Status extends React.Component {
   constructor(props){
     super(props);
@@ -39,18 +40,16 @@ class Status extends React.Component {
   <p> Click on pictures to see current value of KV </p>
           <div className="status__space">
               <figure>
-              <img id="status__falcon" src={falcon} alt="falcon" style={{border: this.state.border}} onClick={this.handleClick} ></img>
-              <img id="status__light" src={Lightsaber} alt="light" style={{border: this.state.border2}} onClick={this.handleClick2}></img>
-              
-             </figure>
+                <img id="status__falcon" src={falcon} alt="falcon" style={{border: this.state.border}} onClick={this.handleClick} ></img>
+                <img id="status__light" src={Lightsaber} alt="light" style={{border: this.state.border2}} onClick={this.handleClick2}></img>
+              </figure>
 
               <div className="status__description">
-              {[this.randomFalcon,this.state.randomFalcon]} KV
-               
-              </div>
+                {[this.randomFalcon,this.state.randomFalcon]} KV
+               </div>
 
               <div className="status__description">
-              {[this.randomSword,this.state.randomSword]} KV
+                {[this.randomSword,this.state.randomSword]} KV
               </div>
               
           </div>
