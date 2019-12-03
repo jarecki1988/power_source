@@ -4,7 +4,6 @@ import Lightsaber from "../../Assets/Images/lightsaber2.png";
 
 
 
-
 class Status extends React.Component {
   constructor(props){
     super(props);
@@ -12,40 +11,46 @@ class Status extends React.Component {
     this.state = ({border2: '2px solid gray'})
     this.state = {randomFalcon: 0}
     this.state = {randomSword: 0}
+    this.state = {total: 0}
     this.handleClick = this.handleClick.bind(this);
     this.handleClick2 = this.handleClick2.bind(this);
     
   }
 
   handleClick() {
-    this.setState(state => 
+    this.randomFalcon = (Math.random()*7).toFixed(0)
+      this.setState(state => 
       ({border: '2px solid lightgreen'}))
-      this.randomFalcon = (Math.random()*700/100).toFixed(1) 
-    
-  
-      
-      
-  }
+       
+    }
+
   handleClick2() {
-    this.setState(state => 
-      ({border2: '2px solid lightgreen'}));
-      this.randomSword = (Math.random()*700/100).toFixed(1)
-      
-      
-  }
+    this.randomSword = (Math.random()*7).toFixed(0);
+      this.setState(state => {
+      return ({border2: '2px solid lightgreen'})
+    }
+    )};     
 
   render() {
     return (
       <div className="status">
-  <h1>TOTAL POWER: {} KV</h1>
-  <p> Click on pictures to see current value of Kv </p>
+  <h1>TOTAL POWER: {(this.randomFalcon * 1 + this.randomSword * 1)}KV</h1>
+  <p> Click on pictures to see current value of KV </p>
           <div className="status__space">
-              <span>{[this.randomFalcon,this.state.randomFalcon]} KV</span>
+              <figure>
               <img id="status__falcon" src={falcon} alt="falcon" style={{border: this.state.border}} onClick={this.handleClick} ></img>
+              <img id="status__light" src={Lightsaber} alt="light" style={{border: this.state.border2}} onClick={this.handleClick2}></img>
               
-              <img id="status__light" src={Lightsaber} alt="flight" style={{border: this.state.border2}} onClick={this.handleClick2}></img>
-              <span>{[this.randomSword,this.state.randomSword]} KV</span>
-              
+             </figure>
+
+              <div className="status__description">
+              {[this.randomFalcon,this.state.randomFalcon]} KV
+               
+              </div>
+
+              <div className="status__description">
+              {[this.randomSword,this.state.randomSword]} KV
+              </div>
               
           </div>
 
