@@ -13,6 +13,7 @@ width: 100%;
 height: 60px;
 display: flex;
 }
+
 .app__logo {
   background-image: url(../Assets/Images/greenBack.png);
   border-radius: 40%;
@@ -23,23 +24,36 @@ margin: 0;
 padding:0 15px;
 border: none;
 }
+
 a {
-  text-decoration: none;
   color: black;
   border-left: 1px dotted black;
   padding:10px 30px;
   margin: 0;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.3s;
   margin-left: auto;
   justify-content: flex-end;
+  text-decoration: none;
+  
 }
 a:last-child {
   margin-left: 0;
+
+}
+a.active:nth-of-type(2) {
+  text-decoration: underline;
+  
+  
+}
+a.active:last-child {
+  background-color:rgb(137, 137, 137);
+  text-decoration: underline;
+  text-decoration-color: red
+  
 }
 a:hover {
   color: red;
   box-shadow: 0 0 5px black;
-  background-color:rgb(85, 98, 111);
 }
 h1 {
   color: rgb(239, 14, 14);

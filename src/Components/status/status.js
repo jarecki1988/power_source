@@ -13,7 +13,7 @@ class Status extends React.Component {
     this.state = ({border2: '2px solid gray'})
     this.state = {randomFalcon: 0}
     this.state = {randomSword: 0}
-    this.state = {total: 0}
+   
     this.handleClick = this.handleClick.bind(this);
     this.handleClick2 = this.handleClick2.bind(this);
     
@@ -49,7 +49,7 @@ class Status extends React.Component {
                </div>
 
               <div className="status__description">
-                {[this.randomSword,this.state.randomSword]} KV
+                {[this.randomSword]} KV
               </div>
               
           </div>
