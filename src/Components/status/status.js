@@ -22,7 +22,7 @@ class Status extends React.Component {
   handleClick() {
     this.randomFalcon = (Math.random()*7).toFixed(0)
       this.setState(state => 
-      ({border: '2px solid lightgreen'}))
+      ({border:'2px solid lightgreen' }))
        
     }
 
