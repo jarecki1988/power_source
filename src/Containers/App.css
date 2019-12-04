@@ -18,16 +18,19 @@ display: flex;
   background-image: url(../Assets/Images/greenBack.png);
   border-radius: 40%;
   opacity: 0.8;
+
 }
+
 #app__link {
 margin: 0;
 padding:0 15px;
+box-shadow: none;
 border: none;
 }
 
 a {
   color: black;
-  border-left: 1px dotted black;
+  border-left: 0.4px dotted black;
   padding:10px 30px;
   margin: 0;
   transition: box-shadow 0.3s;
@@ -38,6 +41,8 @@ a {
 }
 a:last-child {
   margin-left: 0;
+  margin-right:1px;
+  border-right: 0.5px dotted black;
 
 }
 a.active:nth-of-type(2) {

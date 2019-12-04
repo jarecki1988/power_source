@@ -48,6 +48,7 @@
   @media (max-width:340px) {
     .app {font-size: 1.5rem;}
     a {padding-top: 15px;border: none;}
+    a:last-child {border: none}
     .status__space {margin-top: 0;}
     .status__description {font-size: 1rem;}
     h1 {font-size: 2.2rem;}
