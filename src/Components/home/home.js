@@ -30,7 +30,7 @@ class Home extends React.Component {
       </div>
     </div>
       <footer>
-        Copyright all reserved 2019.
+      &copy; Copyright all reserved 2019.
       </footer>
   </div>
   );
